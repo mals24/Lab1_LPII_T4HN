@@ -97,3 +97,4 @@
 2023-09-27 20:21:55,617 [Worker-63: Launching EmpleadoView] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-09-27 20:21:55,618 [Worker-63: Launching EmpleadoView] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2023-09-27 20:21:55,619 [Worker-63: Launching EmpleadoView] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-27 20:21:55,620 [Worker-63: Launching EmpleadoView] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
