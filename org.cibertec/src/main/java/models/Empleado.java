@@ -1,0 +1,85 @@
+package models;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+
+@Entity
+@Table(name="empleados")
+public class Empleado {
+	
+	@Id
+	@Column(name="idempleado")
+	private int idempleado;
+	
+	@Column(name="nombres")
+	private String nombres;
+	
+	@Column(name="apellidos")
+	private String apellidos;
+	
+	@Column(name="edad")
+	private int edad;
+	
+	@Column(name="sexo")
+	private String sexo;
+	
+	@Column(name="salario")
+	private String salario;
+	
+	public Empleado() {}
+	
+	public Empleado(String nombres, String apellidos, int edad, String sexo, String salario) {
+		this.nombres = nombres;
+		this.apellidos = apellidos;
+		this.edad = edad;
+		this.sexo = sexo;
+		this.salario = salario;
+	}
+	
+	public int getIdempleado() {
+		return idempleado;
+	}
+	public void setIdempleado(int idempleado) {
+		this.idempleado = idempleado;
+	}
+	public String getNombres() {
+		return nombres;
+	}
+	public void setNombres(String nombres) {
+		this.nombres = nombres;
+	}
+	public String getApellidos() {
+		return apellidos;
+	}
+	public void setApellidos(String apellidos) {
+		this.apellidos = apellidos;
+	}
+	public int getEdad() {
+		return edad;
+	}
+	public void setEdad(int edad) {
+		this.edad = edad;
+	}
+	public String getSexo() {
+		return sexo;
+	}
+	public void setSexo(String sexo) {
+		this.sexo = sexo;
+	}
+	public String getSalario() {
+		return salario;
+	}
+	public void setSalario(String salario) {
+		this.salario = salario;
+	}
+	
+	@Override
+	public String toString() {
+		return "Empleado [idempleado=" + idempleado + ", nombres=" + nombres + ", apellidos=" + apellidos + ", edad="
+				+ edad + ", sexo=" + sexo + ", salario=" + salario + "]";
+	}
+	
+
+}
